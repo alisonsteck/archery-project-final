@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Contact</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css"
+          href="styles/styles.css">
+    </head>
+    <body>
+      <header>
+        <img src="Images/archery-logo-white.png" alt="Straight To The Point Archery">
+        <nav class="header-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Contact</h2>
+        <div class="contact-form">
+        <form action="/action.php" method="GET">
+          <fieldset>
+            <legend>Information</legend>
+              <label for="First-Name">First Name:
+                <input type="text" name="first-name" id="first-name">
+              </label>
+              <label for="Age">Age:
+                <input type="number" name="age" id="age" min="7">
+              </label>
+              <label for="Email">Email:
+                <input type="email" name="user-email" id="email">
+              </label>
+              <label for="Classes">Classes I'm Interested In:
+                <input type="checkbox" name="classes" value="Basic Archery">Basic Archery
+                <input type="checkbox" name="classes" value="Intermediate Archery">Intermediate Archery
+                <input type="checkbox" name="classes" value="Advanced Archery">Advanced Archery
+                <input type="checkbox" name="classes" value="Private Lessons">Private Lessons
+              <textarea name="message" rows="15" cols="80"></textarea>
+              <input type="submit" value="Submit" name="Submit">
+          </fieldset>
+        </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-content">
+             <img src="Images/archery-logo-white.png" alt="archery school logo" >
+           <nav class="footer-nav">
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+             <ul>
+               <li><a href="instructors.html">Instructors</a></li>
+               <li><a href="#">Classes</a></li>
+               <li><a href="contact.html">Contact</a></li>
+             </ul>
+           </nav>
+           <p>©2018 Archery Academy  |  Seattle, WA</p>
+         </div>
+      </footer>
+    </body>
+  </html>
